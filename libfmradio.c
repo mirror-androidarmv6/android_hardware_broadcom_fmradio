@@ -38,6 +38,12 @@
 #include "utils/Log.h"
 #include "hardware/fmradio.h"
 
+#define LOGD ALOGD
+#define LOGE ALOGE
+#define LOGI ALOGI
+#define LOGV ALOGV
+#define LOGW ALOGW
+
 #define TUNE_MULT 16000
 #define MAX_SCAN_STATIONS 205
 
